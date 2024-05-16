@@ -12,10 +12,10 @@ A basic HTML, CSS, and JS challenge from Frontend Mentor. This is the solution t
 
 <h2> What have I learned </h2>
 
-<li>  </li>
-<li>  </li>
-<li>  </li>
-<li>  </li>
+<li> Further improved my ability to create responsive and mobile friendly designs </li>
+<li> Learned how to use properties like outline-offset </li>
+<li> Applied concepts I'ved learned such as when/how to use position: relative </li>
+<li> Learned when/how to use Spans </li>
 
 <h2> How did I complete this project? </h2>
 
