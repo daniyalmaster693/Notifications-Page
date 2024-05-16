@@ -8,7 +8,7 @@ A basic HTML, CSS, and JS challenge from Frontend Mentor. This is the solution t
 <h2> Links </h2>
 
 <li> Link to solution:  </li>
-<li> Link to live demo:  </li>
+<li> Link to live demo: https://blaze4884.github.io/Notifications-Page/ </li>
 
 <h2> What have I learned </h2>
 
