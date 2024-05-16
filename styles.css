@@ -1,0 +1,269 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+
+body {
+  background-color: #f9fafe;
+  font-family: "Plus Jakarta Sans";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.card {
+  background-color: white;
+  height: 680px;
+  width: 575px;
+  border-radius: 12px;
+  box-shadow: 0 2px 20px rgb(0, 0, 0, 6%);
+  padding-top: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-top: 60px;
+}
+
+.info {
+  display: flex;
+}
+
+.info h1 {
+  color: #1b1e29;
+  font-size: 19px;
+  font-weight: 900;
+}
+
+.info h2 {
+  color: white;
+  background-color: #0a317b;
+  width: 35px;
+  height: 25px;
+  margin-left: 12px;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clear {
+  background-color: white;
+  color: #6a6d72;
+  border: none;
+  margin-left: 295px;
+  font-family: "Plus Jakarta Sans";
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.clear:hover {
+  color: #1f3f7a;
+}
+
+.notification-1 {
+  margin-top: 7px;
+}
+
+.notification-1,
+.notification-2,
+.notification-3 {
+  background-color: #f6fafd;
+  transition: all 0.3s ease-in-out;
+}
+
+.notification-1,
+.notification-2,
+.notification-3,
+.notification-4,
+.notification-5,
+.notification-6,
+.notification-7 {
+  display: flex;
+  align-items: center;
+  height: 30px;
+  padding: 20px;
+  border-radius: 7px;
+  margin-bottom: 7px;
+}
+
+.title-1,
+.title-2,
+.title-3,
+.title-4,
+.title-5,
+.title-6,
+.title-7 {
+  display: flex;
+  align-items: center;
+  margin-top: 14px;
+}
+
+.title-1 h2,
+.title-2 h2,
+.title-3 h2,
+.title-4 h2,
+.title-5 h2,
+.title-6 h2,
+.title-7 h2 {
+  font-size: 14px;
+  font-weight: 800;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.title-1 h2:hover,
+.title-2 h2:hover,
+.title-3 h2:hover,
+.title-4 h2:hover,
+.title-5 h2:hover,
+.title-6 h2:hover,
+.title-7 h2:hover {
+  color: #1f3f7a;
+}
+
+.chess-image {
+  width: 35px;
+  height: 35px;
+  position: relative;
+  left: 145px;
+  bottom: 7px;
+  cursor: pointer;
+}
+
+.chess-image:hover {
+  outline: 1px solid #5e6778;
+  outline-offset: 1.5px;
+  border-radius: 5px;
+}
+
+.profile-picture img {
+  width: 35px;
+  height: 35px;
+  margin-left: -5px;
+  margin-right: 15px;
+}
+
+.reaction {
+  color: #5e6778;
+  font-weight: 500;
+  margin-right: 4px;
+  margin-left: 4px;
+}
+
+.post-title {
+  color: #5e6778;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.post-title:hover {
+  color: #1f3f7a;
+}
+
+.message {
+  width: 80%;
+  padding: 10px;
+  color: #5e6778;
+  font-weight: 500;
+  font-size: 14px;
+  border: 1px #dde7ee solid;
+  border-radius: 3px;
+  margin-left: 65px;
+  margin-top: -7px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.message:hover {
+  background-color: #e5eff9;
+}
+
+.red-dot {
+  background-color: #f65351;
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  position: relative;
+  left: 8px;
+  bottom: 18px;
+}
+
+.time {
+  color: #9fa7b7;
+  font-weight: 400;
+  margin-top: 7px;
+}
+
+.footer {
+  position: absolute;
+  bottom: -75px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-size: 11px;
+  color: black;
+  font-family: "Nunito Sans";
+}
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+@media screen and (max-width: 670px) {
+  body {
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .card {
+    width: 350px;
+    height: 900px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .notification-1,
+  .notification-2,
+  .notification-3,
+  .notification-4,
+  .notification-5,
+  .notification-6,
+  .notification-7 {
+    height: 50px;
+  }
+
+  .title-1 h2,
+  .title-2 h2,
+  .title-3 h2,
+  .title-4 h2,
+  .title-5 h2,
+  .title-6 h2,
+  .title-7 h2 {
+    width: 98%;
+  }
+
+  .message {
+    margin-left: 16px;
+  }
+
+  .chess-image {
+    left: 20px;
+  }
+
+  .clear {
+    margin-left: 20px;
+  }
+
+  .footer {
+    bottom: -70px;
+  }
+}
